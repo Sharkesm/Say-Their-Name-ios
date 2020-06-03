@@ -9,7 +9,9 @@
 import UIKit
 
 class PersonController: BaseViewController {
-
+    
+    private let personCarouselView = PersonPhotoCarousel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.accessibilityIdentifier = "personView"
@@ -17,14 +19,19 @@ class PersonController: BaseViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func didPressCloseButton() {
-        self.dismiss(animated: true, completion: nil)
+    override func loadView() {
+        self.view = personCarouselView
     }
-
-    @IBAction func didPressReadButton(_ sender: Any) {
-        let personDetailsController = PersonDetailsController(service: self.service)
-        personDetailsController.isModalInPresentation = true
-        navigationController?.pushViewController(personDetailsController, animated: true)
-      }
+    
+    
+//    @IBAction func didPressCloseButton() {
+//        self.dismiss(animated: true, completion: nil)
+//    }
+//
+//    @IBAction func didPressReadButton(_ sender: Any) {
+//        let personDetailsController = PersonDetailsController(service: self.service)
+//        personDetailsController.isModalInPresentation = true
+//        navigationController?.pushViewController(personDetailsController, animated: true)
+//    }
     
 }
