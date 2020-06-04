@@ -1,5 +1,5 @@
 //
-//  PersonPhotoCarousel.swift
+//  PersonView.swift
 //  Say Their Names
 //
 //  Created by Manase on 04/06/2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class PersonPhotoCarousel: UIView {
+final class PersonView: UIView {
  
     lazy var scrollView: UIScrollView = {
         let view = UIScrollView(frame: superview!.bounds)

@@ -10,7 +10,7 @@ import UIKit
 
 class PersonController: BaseViewController {
     
-    private let personCarouselView = PersonPhotoCarousel()
+    private let personView = PersonView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,7 @@ class PersonController: BaseViewController {
     }
     
     override func loadView() {
-        self.view = personCarouselView
+        self.view = personView
     }
     
     

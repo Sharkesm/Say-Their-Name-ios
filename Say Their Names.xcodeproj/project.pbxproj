@@ -12,7 +12,7 @@
 		7433B6462484B987005140D4 /* PersonDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7433B6442484B987005140D4 /* PersonDetailsController.xib */; };
 		7433B6472484B987005140D4 /* PersonDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433B6452484B987005140D4 /* PersonDetailsController.swift */; };
 		7433B64B2484BABA005140D4 /* PersonPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433B6492484BABA005140D4 /* PersonPhotoCell.swift */; };
-		746CE66C2488018200CC5235 /* PersonCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746CE66B2488018200CC5235 /* PersonCarouselView.swift */; };
+		746CE66C2488018200CC5235 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746CE66B2488018200CC5235 /* PersonView.swift */; };
 		746CE66E248801D200CC5235 /* PersonBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746CE66D248801D200CC5235 /* PersonBodyView.swift */; };
 		74DE10872486DFA300211B83 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DE10852486DFA300211B83 /* SettingsController.swift */; };
 		74DE10882486DFA300211B83 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74DE10862486DFA300211B83 /* SettingsController.xib */; };
@@ -116,7 +116,7 @@
 		7433B6442484B987005140D4 /* PersonDetailsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonDetailsController.xib; sourceTree = "<group>"; };
 		7433B6452484B987005140D4 /* PersonDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailsController.swift; sourceTree = "<group>"; };
 		7433B6492484BABA005140D4 /* PersonPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonPhotoCell.swift; sourceTree = "<group>"; };
-		746CE66B2488018200CC5235 /* PersonCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCarouselView.swift; sourceTree = "<group>"; };
+		746CE66B2488018200CC5235 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
 		746CE66D248801D200CC5235 /* PersonBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonBodyView.swift; sourceTree = "<group>"; };
 		74DE10852486DFA300211B83 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		74DE10862486DFA300211B83 /* SettingsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsController.xib; sourceTree = "<group>"; };
@@ -270,7 +270,7 @@
 		746CE66A248800C300CC5235 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				746CE66B2488018200CC5235 /* PersonCarouselView.swift */,
+				746CE66B2488018200CC5235 /* PersonView.swift */,
 				746CE66D248801D200CC5235 /* PersonBodyView.swift */,
 			);
 			path = Views;
@@ -884,7 +884,7 @@
 				7433B64B2484BABA005140D4 /* PersonPhotoCell.swift in Sources */,
 				A91B07A324835CF700DB803C /* PetitionsController.swift in Sources */,
 				A91B079E24835CF700DB803C /* PersonController.swift in Sources */,
-				746CE66C2488018200CC5235 /* PersonCarouselView.swift in Sources */,
+				746CE66C2488018200CC5235 /* PersonView.swift in Sources */,
 				A91B07C32484719C00DB803C /* Bundle+STN.swift in Sources */,
 				A91B07AE24835CF700DB803C /* PersonHeaderCell.swift in Sources */,
 				A91B079724835CF700DB803C /* UIView++.swift in Sources */,
